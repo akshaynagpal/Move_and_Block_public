@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Move N Block</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/phaser.js"></script>
+        <script type="text/javascript" src="js/load.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+        <script type="text/javascript" src="js/play.js"></script>
+        <script type="text/javascript" src="js/p1wins.js"></script>
+        <script type="text/javascript" src="js/p2wins.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript">
+        document.addEventListener('deviceready', function() {
+            navigator.splashscreen.hide();
+
+            admob.setOptions({
+                publisherId:          "ca-app-pub-7820428066420735/1388536403",
+                isTesting: false,
+                overlap: true
+            });
+            admob.createBannerView();
+        });
+        </script>
+
+
+    </head>
+    <body>
+        <div id="gameDiv"> </div>
+    </body>
+</html>

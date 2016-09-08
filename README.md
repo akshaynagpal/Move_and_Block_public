@@ -1,5 +1,5 @@
 # Move and Block
-
+This is the public version of the private repository, for my code portfolio. Personal and other sensitive information is not present here. 
 Application Files
 -----------------
 * www/index.html
